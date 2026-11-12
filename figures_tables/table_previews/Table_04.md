@@ -1,0 +1,8 @@
+# Table 4 — Table_4_core_ablation.csv
+
+| variant | LOL_PSNR_dB_mean | LOL_PSNR_dB_std | LOL_SSIM_mean | LOL_SSIM_std | LOL_MAE_mean | LOL_MAE_std | BIMEF_NIQE_mean | BIMEF_NIQE_std | BIMEF_CLIP_IQA_mean | BIMEF_CLIP_IQA_std |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A0: base curve | 18.8352 | 0.0627 | 0.6362 | 0.0003 | 0.1186 | 0.0010 | 3.7985 | 0.0637 | 0.4122 | 0.0058 |
+| A1: + correction | 18.7985 | 0.0014 | 0.6123 | 0.0005 | 0.1170 | 0.0002 | 3.8706 | 0.0300 | 0.4065 | 0.0033 |
+| A2: + adaptive beta | 18.7992 | 0.0001 | 0.6123 | 0.0005 | 0.1170 | 0.0001 | 3.6254 | 0.0218 | 0.4607 | 0.0034 |
+| A3: + compensation | 19.3404 | 0.0074 | 0.6326 | 0.0005 | 0.1106 | 0.0001 | 3.6497 | 0.0216 | 0.4529 | 0.0033 |

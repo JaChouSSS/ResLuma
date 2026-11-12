@@ -1,0 +1,1 @@
+Figure 2 is the manually updated ResLuma framework diagram supplied by the author. It matches figs/framework.pdf in the accompanying LaTeX ZIP. The Visio editable source is not supplied. All remaining figures are regenerated in generated_figures.

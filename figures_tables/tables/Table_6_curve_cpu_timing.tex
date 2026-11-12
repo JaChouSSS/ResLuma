@@ -1,0 +1,27 @@
+% Exact Table 6 from manuscript, including formatting, emphasis and data.
+\begin{table}[!htbp]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{CPU execution time per image for the eight-step iterative
+curve of Zero-DCE and the proposed non-iterative high-order mapping across six
+input resolutions. All measurements use PyTorch FP32 with eight
+CPU threads and include only the curve operations.
+Lower latency is better.}
+\label{tab:curve_direct_speed}
+\ResLumaTableSetup
+\begin{tabularx}{\fulllength}{@{}p{0.23\fulllength}*{3}{C}@{}}
+\toprule
+Resolution &
+\makecell[c]{Eight-step iteration\\(ms) $\downarrow$} &
+\makecell[c]{High-order mapping\\(ms) $\downarrow$} &
+Speedup \\
+\midrule
+$512\times512$   & 13.62  & \best{6.64}   & 2.05$\times$ \\
+$1280\times720$  & 53.19  & \best{27.27}  & 1.95$\times$ \\
+$1920\times1080$ & 124.96 & \best{58.96}  & 2.12$\times$ \\
+$2560\times1440$ & 244.15 & \best{140.43} & 1.74$\times$ \\
+$3840\times2160$ & 543.55 & \best{308.03} & 1.76$\times$ \\
+$7680\times4320$ & 2136.0 & \best{1146.1} & 1.86$\times$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

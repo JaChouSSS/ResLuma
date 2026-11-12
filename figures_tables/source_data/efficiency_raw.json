@@ -1,0 +1,902 @@
+{
+  "zerodce": {
+    "method": "zerodce",
+    "display": "Zero-DCE (2020)",
+    "params_trainable": 79416,
+    "params_total": 79416,
+    "weight_bytes": 320017,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 1.6659039855003357,
+        "p95_ms": 1.6721919775009155,
+        "fps": 600.2746909208342,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 777.6787109375,
+        "free_before_mib": 46953.25,
+        "free_after_mib": 46953.25
+      },
+      "720p": {
+        "median_ms": 8.174592018127441,
+        "p95_ms": 8.238080024719238,
+        "fps": 122.33026404039067,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 1490.0849609375,
+        "free_before_mib": 46953.25,
+        "free_after_mib": 46413.25
+      },
+      "1080p": {
+        "median_ms": 19.074047088623047,
+        "p95_ms": 19.095487594604492,
+        "fps": 52.42725863859602,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 2737.1123046875,
+        "free_before_mib": 46867.25,
+        "free_after_mib": 45089.25
+      },
+      "4K": {
+        "median_ms": 84.79999923706055,
+        "p95_ms": 84.84249877929688,
+        "fps": 11.792452936284523,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 9450.0849609375,
+        "free_before_mib": 46699.25,
+        "free_after_mib": 37829.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 715.7205614930717,
+        "p95_ms": 749.9364129907917,
+        "fps": 1.3971933374582535,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 317664
+  },
+  "ruas": {
+    "method": "ruas",
+    "display": "RUAS (2021)",
+    "params_trainable": 3438,
+    "params_total": 3438,
+    "weight_bytes": 31374,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 3.726848006248474,
+        "p95_ms": 3.872767925262451,
+        "fps": 268.3232582395067,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 593.46533203125,
+        "free_before_mib": 47217.25,
+        "free_after_mib": 47215.25
+      },
+      "720p": {
+        "median_ms": 8.137727737426758,
+        "p95_ms": 8.28006362915039,
+        "fps": 122.88442575939649,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 843.49853515625,
+        "free_before_mib": 47215.25,
+        "free_after_mib": 46999.25
+      },
+      "1080p": {
+        "median_ms": 22.214143753051758,
+        "p95_ms": 22.364959716796875,
+        "fps": 45.01636484920203,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 1279.01123046875,
+        "free_before_mib": 47129.25,
+        "free_after_mib": 46555.25
+      },
+      "4K": {
+        "median_ms": 123.76678466796875,
+        "p95_ms": 124.05043029785156,
+        "fps": 8.079712199704606,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 3627.89013671875,
+        "free_before_mib": 47119.25,
+        "free_after_mib": 43311.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 1471.8637729965849,
+        "p95_ms": 1562.0176450174768,
+        "fps": 0.6794107025027786,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 13752
+  },
+  "zerodcepp": {
+    "method": "zerodcepp",
+    "display": "Zero-DCE++ (2021)",
+    "params_trainable": 10561,
+    "params_total": 10561,
+    "weight_bytes": 52395,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 0.9748479723930359,
+        "p95_ms": 1.0024319887161255,
+        "fps": 1025.8009744280653,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 517.6728515625,
+        "free_before_mib": 47403.25,
+        "free_after_mib": 47401.25
+      },
+      "720p": {
+        "median_ms": 1.0009599924087524,
+        "p95_ms": 1.0117119550704956,
+        "fps": 999.0409282928059,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 573.3310546875,
+        "free_before_mib": 47403.25,
+        "free_after_mib": 47361.25
+      },
+      "1080p": {
+        "median_ms": 1.7464159727096558,
+        "p95_ms": 1.758080005645752,
+        "fps": 572.6012677543528,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 650.76416015625,
+        "free_before_mib": 47403.25,
+        "free_after_mib": 47283.25
+      },
+      "4K": {
+        "median_ms": 11.637696266174316,
+        "p95_ms": 11.789312362670898,
+        "fps": 85.92765931746834,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 1106.90576171875,
+        "free_before_mib": 47307.25,
+        "free_after_mib": 46805.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 722.1422584843822,
+        "p95_ms": 781.9917220040224,
+        "fps": 1.3847687048515622,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 42244
+  },
+  "sci": {
+    "method": "sci",
+    "display": "SCI (2022)",
+    "params_trainable": 258,
+    "params_total": 258,
+    "weight_bytes": 43967,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 0.3020800054073334,
+        "p95_ms": 0.31436800956726074,
+        "fps": 3310.381296675267,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 507.4501953125,
+        "free_before_mib": 47441.25,
+        "free_after_mib": 47441.25
+      },
+      "720p": {
+        "median_ms": 0.5879040062427521,
+        "p95_ms": 0.594048023223877,
+        "fps": 1700.957961472181,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 537.1220703125,
+        "free_before_mib": 47441.25,
+        "free_after_mib": 47405.25
+      },
+      "1080p": {
+        "median_ms": 1.316864013671875,
+        "p95_ms": 1.3189120292663574,
+        "fps": 759.3798521471113,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 590.9345703125,
+        "free_before_mib": 47417.25,
+        "free_after_mib": 47345.25
+      },
+      "4K": {
+        "median_ms": 9.546847820281982,
+        "p95_ms": 9.566304206848145,
+        "fps": 104.74661572331037,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 874.6220703125,
+        "free_before_mib": 47345.25,
+        "free_after_mib": 47057.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 116.56664950714912,
+        "p95_ms": 147.02071200008504,
+        "fps": 8.57878307584597,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 1064
+  },
+  "uretinex": {
+    "method": "uretinex",
+    "display": "URetinex-Net (2022)",
+    "params_trainable": 0,
+    "params_total": 340105,
+    "weight_bytes": 5260761,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 14.534671783447266,
+        "p95_ms": 14.947327613830566,
+        "fps": 68.80100320798745,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 1025.017578125,
+        "free_before_mib": 47381.25,
+        "free_after_mib": 46895.25
+      },
+      "720p": {
+        "median_ms": 68.82193374633789,
+        "p95_ms": 69.23353576660156,
+        "fps": 14.530251412082873,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 2360.720703125,
+        "free_before_mib": 47381.25,
+        "free_after_mib": 45569.25
+      },
+      "1080p": {
+        "median_ms": 157.8895034790039,
+        "p95_ms": 158.4199676513672,
+        "fps": 6.333543256299996,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 4680.05810546875,
+        "free_before_mib": 47381.25,
+        "free_after_mib": 43061.25
+      },
+      "4K": {
+        "median_ms": 646.3380126953125,
+        "p95_ms": 647.994384765625,
+        "fps": 1.547178071470486,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 17238.72607421875,
+        "free_before_mib": 47127.25,
+        "free_after_mib": 29901.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 2933.9551359880716,
+        "p95_ms": 3036.2795240071137,
+        "fps": 0.3408368409366385,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 1360420
+  },
+  "fourllie": {
+    "method": "fourllie",
+    "display": "FourLLIE (2023)",
+    "params_trainable": 119446,
+    "params_total": 119446,
+    "weight_bytes": 562237,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 10.501168251037598,
+        "p95_ms": 10.717184066772461,
+        "fps": 95.22750003564529,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 686.71728515625,
+        "free_before_mib": 47335.25,
+        "free_after_mib": 47165.25
+      },
+      "720p": {
+        "median_ms": 22.660527229309082,
+        "p95_ms": 22.853504180908203,
+        "fps": 44.12959989327177,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 1168.76025390625,
+        "free_before_mib": 47387.25,
+        "free_after_mib": 46583.25
+      },
+      "1080p": {
+        "median_ms": 65.1407356262207,
+        "p95_ms": 65.86265563964844,
+        "fps": 15.351377143451787,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 2013.26318359375,
+        "free_before_mib": 47387.25,
+        "free_after_mib": 45581.25
+      },
+      "4K": {
+        "median_ms": 276.27264404296875,
+        "p95_ms": 276.7573547363281,
+        "fps": 3.6196128048221445,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 6546.92626953125,
+        "free_before_mib": 47259.25,
+        "free_after_mib": 40087.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 5561.464405502193,
+        "p95_ms": 6006.7452549992595,
+        "fps": 0.1798087566667976,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 477784
+  },
+  "retinexformer": {
+    "method": "retinexformer",
+    "display": "Retinexformer (2023)",
+    "params_trainable": 1605701,
+    "params_total": 1605701,
+    "weight_bytes": 6475021,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 37.887983322143555,
+        "p95_ms": 38.0682258605957,
+        "fps": 26.39359269923327,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 623.2705078125,
+        "free_before_mib": 48071.25,
+        "free_after_mib": 47011.25
+      },
+      "720p": {
+        "median_ms": 149.02015686035156,
+        "p95_ms": 149.21408081054688,
+        "fps": 6.710501592996652,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 2155.2861328125,
+        "free_before_mib": 47993.25,
+        "free_after_mib": 44423.25
+      },
+      "1080p": {
+        "median_ms": 344.90875244140625,
+        "p95_ms": 345.3614196777344,
+        "fps": 2.899317552603661,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 4832.6806640625,
+        "free_before_mib": 47851.25,
+        "free_after_mib": 40237.25
+      },
+      "4K": {
+        "median_ms": 1453.5853271484375,
+        "p95_ms": 1455.6632080078125,
+        "fps": 0.6879541099673482,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 19285.6611328125,
+        "free_before_mib": 47851.25,
+        "free_after_mib": 15977.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 4862.352143987664,
+        "p95_ms": 5076.308700983645,
+        "fps": 0.2056617806335783,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 6422804
+  },
+  "liteie": {
+    "method": "liteie",
+    "display": "LiteIE (2025)",
+    "params_trainable": 58,
+    "params_total": 58,
+    "weight_bytes": 2328,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 0.6195200085639954,
+        "p95_ms": 0.6296319961547852,
+        "fps": 1614.1528702485832,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 515.22802734375,
+        "free_before_mib": 47389.25,
+        "free_after_mib": 47389.25
+      },
+      "720p": {
+        "median_ms": 0.6307680010795593,
+        "p95_ms": 0.6461120247840881,
+        "fps": 1585.3689443480014,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 568.05615234375,
+        "free_before_mib": 47389.25,
+        "free_after_mib": 47353.25
+      },
+      "1080p": {
+        "median_ms": 1.6517119407653809,
+        "p95_ms": 1.6588799953460693,
+        "fps": 605.4324457669136,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 685.51318359375,
+        "free_before_mib": 47389.25,
+        "free_after_mib": 47245.25
+      },
+      "4K": {
+        "median_ms": 14.38310432434082,
+        "p95_ms": 14.541824340820312,
+        "fps": 69.52602007535185,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 1158.68115234375,
+        "free_before_mib": 47345.25,
+        "free_after_mib": 46737.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 340.63229549792595,
+        "p95_ms": 445.00452099600807,
+        "fps": 2.9357169394000953,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 232
+  },
+  "mobileie": {
+    "method": "mobileie",
+    "display": "MobileIE (2025)",
+    "params_trainable": 4075,
+    "params_total": 4075,
+    "weight_bytes": 21868,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 0.5488640069961548,
+        "p95_ms": 0.5652480125427246,
+        "fps": 1821.9449394629476,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 570.828125,
+        "free_before_mib": 47361.25,
+        "free_after_mib": 47361.25
+      },
+      "720p": {
+        "median_ms": 2.0270079374313354,
+        "p95_ms": 2.040832042694092,
+        "fps": 493.33797936046557,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 759.921875,
+        "free_before_mib": 47361.25,
+        "free_after_mib": 47185.25
+      },
+      "1080p": {
+        "median_ms": 6.036495923995972,
+        "p95_ms": 6.168575763702393,
+        "fps": 165.65902016513436,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 1089.08984375,
+        "free_before_mib": 47317.25,
+        "free_after_mib": 46741.25
+      },
+      "4K": {
+        "median_ms": 25.243136405944824,
+        "p95_ms": 25.425920486450195,
+        "fps": 39.61472868975574,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 2870.75,
+        "free_before_mib": 47265.25,
+        "free_after_mib": 44889.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 251.38549349503592,
+        "p95_ms": 298.4409150085412,
+        "fps": 3.9779542808811557,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 16300
+  },
+  "ehec": {
+    "method": "ehec",
+    "display": "EHEC (Ours)",
+    "params_trainable": 28,
+    "params_total": 28,
+    "weight_bytes": 5037,
+    "device_name": "NVIDIA GeForce RTX 4090",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cpu_threads": 96,
+    "cpu_model": "AMD EPYC 7K62 48-Core Processor",
+    "gpu": {
+      "512x512": {
+        "median_ms": 0.881663978099823,
+        "p95_ms": 0.894976019859314,
+        "fps": 1134.2189596485691,
+        "reps": 200,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 50,
+        "peak_mib": 25.2509765625,
+        "free_before_mib": 48077.25,
+        "free_after_mib": 47987.25
+      },
+      "720p": {
+        "median_ms": 0.8919039964675903,
+        "p95_ms": 1.0485759973526,
+        "fps": 1121.196904555341,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          720,
+          1280
+        ],
+        "warmup": 20,
+        "peak_mib": 88.7705078125,
+        "free_before_mib": 48011.25,
+        "free_after_mib": 47927.25
+      },
+      "1080p": {
+        "median_ms": 1.2113920450210571,
+        "p95_ms": 1.2666879892349243,
+        "fps": 825.4965880864913,
+        "reps": 50,
+        "status": "ok",
+        "shape": [
+          1080,
+          1920
+        ],
+        "warmup": 20,
+        "peak_mib": 201.619140625,
+        "free_before_mib": 48007.25,
+        "free_after_mib": 47819.25
+      },
+      "4K": {
+        "median_ms": 8.450560092926025,
+        "p95_ms": 8.633343696594238,
+        "fps": 118.33535162208968,
+        "reps": 30,
+        "status": "ok",
+        "shape": [
+          2160,
+          3840
+        ],
+        "warmup": 20,
+        "peak_mib": 799.2861328125,
+        "free_before_mib": 47935.25,
+        "free_after_mib": 47199.25
+      }
+    },
+    "cpu": {
+      "512x512": {
+        "median_ms": 386.9966000056593,
+        "p95_ms": 415.9859250066802,
+        "fps": 2.5840020299542075,
+        "reps": 20,
+        "status": "ok",
+        "shape": [
+          512,
+          512
+        ],
+        "warmup": 10,
+        "threads": 96
+      }
+    },
+    "model_bytes": 112
+  }
+}

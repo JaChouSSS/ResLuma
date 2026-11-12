@@ -1,0 +1,184 @@
+# Table 2 — Table_2_BIMEF_8subsets.csv
+
+| metric | method | subset | score |
+| --- | --- | --- | --- |
+| NIQE | ResLuma (ours) | DICM | 3.954 |
+| NIQE | ResLuma (ours) | LIME | 4.103 |
+| NIQE | ResLuma (ours) | MEF | 3.534 |
+| NIQE | ResLuma (ours) | NPE | 4.113 |
+| NIQE | ResLuma (ours) | NPE-ex1 | 3.455 |
+| NIQE | ResLuma (ours) | NPE-ex2 | 3.403 |
+| NIQE | ResLuma (ours) | NPE-ex3 | 3.742 |
+| NIQE | ResLuma (ours) | VV | 2.955 |
+| NIQE | ResLuma (ours) | Overall | 3.666 |
+| NIQE | LiteIE | DICM | 4.799 |
+| NIQE | LiteIE | LIME | 4.107 |
+| NIQE | LiteIE | MEF | 3.650 |
+| NIQE | LiteIE | NPE | 4.141 |
+| NIQE | LiteIE | NPE-ex1 | 3.850 |
+| NIQE | LiteIE | NPE-ex2 | 3.548 |
+| NIQE | LiteIE | NPE-ex3 | 3.385 |
+| NIQE | LiteIE | VV | 2.813 |
+| NIQE | LiteIE | Overall | 3.961 |
+| NIQE | SCI | DICM | 4.098 |
+| NIQE | SCI | LIME | 4.211 |
+| NIQE | SCI | MEF | 3.619 |
+| NIQE | SCI | NPE | 4.321 |
+| NIQE | SCI | NPE-ex1 | 3.913 |
+| NIQE | SCI | NPE-ex2 | 3.980 |
+| NIQE | SCI | NPE-ex3 | 4.034 |
+| NIQE | SCI | VV | 2.902 |
+| NIQE | SCI | Overall | 3.886 |
+| NIQE | RUAS | DICM | 7.047 |
+| NIQE | RUAS | LIME | 5.406 |
+| NIQE | RUAS | MEF | 5.408 |
+| NIQE | RUAS | NPE | 7.063 |
+| NIQE | RUAS | NPE-ex1 | 9.511 |
+| NIQE | RUAS | NPE-ex2 | 6.749 |
+| NIQE | RUAS | NPE-ex3 | 5.815 |
+| NIQE | RUAS | VV | 5.339 |
+| NIQE | RUAS | Overall | 6.774 |
+| NIQE | MobileIE | DICM | 4.397 |
+| NIQE | MobileIE | LIME | 4.130 |
+| NIQE | MobileIE | MEF | 4.081 |
+| NIQE | MobileIE | NPE | 4.720 |
+| NIQE | MobileIE | NPE-ex1 | 3.688 |
+| NIQE | MobileIE | NPE-ex2 | 4.019 |
+| NIQE | MobileIE | NPE-ex3 | 3.845 |
+| NIQE | MobileIE | VV | 3.443 |
+| NIQE | MobileIE | Overall | 4.044 |
+| NIQE | Zero-DCE++ | DICM | 4.095 |
+| NIQE | Zero-DCE++ | LIME | 3.968 |
+| NIQE | Zero-DCE++ | MEF | 3.399 |
+| NIQE | Zero-DCE++ | NPE | 4.043 |
+| NIQE | Zero-DCE++ | NPE-ex1 | 3.383 |
+| NIQE | Zero-DCE++ | NPE-ex2 | 3.354 |
+| NIQE | Zero-DCE++ | NPE-ex3 | 3.636 |
+| NIQE | Zero-DCE++ | VV | 2.641 |
+| NIQE | Zero-DCE++ | Overall | 3.626 |
+| NIQE | Zero-DCE | DICM | 3.991 |
+| NIQE | Zero-DCE | LIME | 3.761 |
+| NIQE | Zero-DCE | MEF | 3.291 |
+| NIQE | Zero-DCE | NPE | 3.954 |
+| NIQE | Zero-DCE | NPE-ex1 | 3.453 |
+| NIQE | Zero-DCE | NPE-ex2 | 3.259 |
+| NIQE | Zero-DCE | NPE-ex3 | 3.750 |
+| NIQE | Zero-DCE | VV | 2.631 |
+| NIQE | Zero-DCE | Overall | 3.585 |
+| NIQE | FourLLIE | DICM | 3.819 |
+| NIQE | FourLLIE | LIME | 4.041 |
+| NIQE | FourLLIE | MEF | 3.682 |
+| NIQE | FourLLIE | NPE | 3.902 |
+| NIQE | FourLLIE | NPE-ex1 | 3.508 |
+| NIQE | FourLLIE | NPE-ex2 | 3.528 |
+| NIQE | FourLLIE | NPE-ex3 | 3.445 |
+| NIQE | FourLLIE | VV | 2.938 |
+| NIQE | FourLLIE | Overall | 3.594 |
+| NIQE | URetinex-Net | DICM | 3.957 |
+| NIQE | URetinex-Net | LIME | 4.421 |
+| NIQE | URetinex-Net | MEF | 3.790 |
+| NIQE | URetinex-Net | NPE | 4.705 |
+| NIQE | URetinex-Net | NPE-ex1 | 3.846 |
+| NIQE | URetinex-Net | NPE-ex2 | 4.259 |
+| NIQE | URetinex-Net | NPE-ex3 | 4.001 |
+| NIQE | URetinex-Net | VV | 3.039 |
+| NIQE | URetinex-Net | Overall | 3.905 |
+| NIQE | Retinexformer | DICM | 3.410 |
+| NIQE | Retinexformer | LIME | 4.031 |
+| NIQE | Retinexformer | MEF | 3.432 |
+| NIQE | Retinexformer | NPE | 4.146 |
+| NIQE | Retinexformer | NPE-ex1 | 3.500 |
+| NIQE | Retinexformer | NPE-ex2 | 3.249 |
+| NIQE | Retinexformer | NPE-ex3 | 3.278 |
+| NIQE | Retinexformer | VV | 2.652 |
+| NIQE | Retinexformer | Overall | 3.361 |
+| CLIP-IQA | ResLuma (ours) | DICM | 0.4876 |
+| CLIP-IQA | ResLuma (ours) | LIME | 0.4376 |
+| CLIP-IQA | ResLuma (ours) | MEF | 0.4900 |
+| CLIP-IQA | ResLuma (ours) | NPE | 0.4245 |
+| CLIP-IQA | ResLuma (ours) | NPE-ex1 | 0.4843 |
+| CLIP-IQA | ResLuma (ours) | NPE-ex2 | 0.4971 |
+| CLIP-IQA | ResLuma (ours) | NPE-ex3 | 0.4307 |
+| CLIP-IQA | ResLuma (ours) | VV | 0.3078 |
+| CLIP-IQA | ResLuma (ours) | Overall | 0.4539 |
+| CLIP-IQA | LiteIE | DICM | 0.4462 |
+| CLIP-IQA | LiteIE | LIME | 0.4109 |
+| CLIP-IQA | LiteIE | MEF | 0.4708 |
+| CLIP-IQA | LiteIE | NPE | 0.4151 |
+| CLIP-IQA | LiteIE | NPE-ex1 | 0.4939 |
+| CLIP-IQA | LiteIE | NPE-ex2 | 0.4990 |
+| CLIP-IQA | LiteIE | NPE-ex3 | 0.3919 |
+| CLIP-IQA | LiteIE | VV | 0.3040 |
+| CLIP-IQA | LiteIE | Overall | 0.4321 |
+| CLIP-IQA | SCI | DICM | 0.4299 |
+| CLIP-IQA | SCI | LIME | 0.4567 |
+| CLIP-IQA | SCI | MEF | 0.5339 |
+| CLIP-IQA | SCI | NPE | 0.3190 |
+| CLIP-IQA | SCI | NPE-ex1 | 0.4357 |
+| CLIP-IQA | SCI | NPE-ex2 | 0.4534 |
+| CLIP-IQA | SCI | NPE-ex3 | 0.3912 |
+| CLIP-IQA | SCI | VV | 0.2857 |
+| CLIP-IQA | SCI | Overall | 0.4158 |
+| CLIP-IQA | RUAS | DICM | 0.2854 |
+| CLIP-IQA | RUAS | LIME | 0.3276 |
+| CLIP-IQA | RUAS | MEF | 0.3501 |
+| CLIP-IQA | RUAS | NPE | 0.2051 |
+| CLIP-IQA | RUAS | NPE-ex1 | 0.2638 |
+| CLIP-IQA | RUAS | NPE-ex2 | 0.2763 |
+| CLIP-IQA | RUAS | NPE-ex3 | 0.2593 |
+| CLIP-IQA | RUAS | VV | 0.2612 |
+| CLIP-IQA | RUAS | Overall | 0.2792 |
+| CLIP-IQA | MobileIE | DICM | 0.3266 |
+| CLIP-IQA | MobileIE | LIME | 0.3853 |
+| CLIP-IQA | MobileIE | MEF | 0.3383 |
+| CLIP-IQA | MobileIE | NPE | 0.3078 |
+| CLIP-IQA | MobileIE | NPE-ex1 | 0.4236 |
+| CLIP-IQA | MobileIE | NPE-ex2 | 0.3698 |
+| CLIP-IQA | MobileIE | NPE-ex3 | 0.3493 |
+| CLIP-IQA | MobileIE | VV | 0.3462 |
+| CLIP-IQA | MobileIE | Overall | 0.3528 |
+| CLIP-IQA | Zero-DCE++ | DICM | 0.5036 |
+| CLIP-IQA | Zero-DCE++ | LIME | 0.4664 |
+| CLIP-IQA | Zero-DCE++ | MEF | 0.5207 |
+| CLIP-IQA | Zero-DCE++ | NPE | 0.4476 |
+| CLIP-IQA | Zero-DCE++ | NPE-ex1 | 0.5083 |
+| CLIP-IQA | Zero-DCE++ | NPE-ex2 | 0.5104 |
+| CLIP-IQA | Zero-DCE++ | NPE-ex3 | 0.4540 |
+| CLIP-IQA | Zero-DCE++ | VV | 0.3258 |
+| CLIP-IQA | Zero-DCE++ | Overall | 0.4742 |
+| CLIP-IQA | Zero-DCE | DICM | 0.5109 |
+| CLIP-IQA | Zero-DCE | LIME | 0.4539 |
+| CLIP-IQA | Zero-DCE | MEF | 0.5136 |
+| CLIP-IQA | Zero-DCE | NPE | 0.4579 |
+| CLIP-IQA | Zero-DCE | NPE-ex1 | 0.5063 |
+| CLIP-IQA | Zero-DCE | NPE-ex2 | 0.5160 |
+| CLIP-IQA | Zero-DCE | NPE-ex3 | 0.4570 |
+| CLIP-IQA | Zero-DCE | VV | 0.3386 |
+| CLIP-IQA | Zero-DCE | Overall | 0.4780 |
+| CLIP-IQA | FourLLIE | DICM | 0.5205 |
+| CLIP-IQA | FourLLIE | LIME | 0.5017 |
+| CLIP-IQA | FourLLIE | MEF | 0.5512 |
+| CLIP-IQA | FourLLIE | NPE | 0.4497 |
+| CLIP-IQA | FourLLIE | NPE-ex1 | 0.5060 |
+| CLIP-IQA | FourLLIE | NPE-ex2 | 0.5472 |
+| CLIP-IQA | FourLLIE | NPE-ex3 | 0.4452 |
+| CLIP-IQA | FourLLIE | VV | 0.3610 |
+| CLIP-IQA | FourLLIE | Overall | 0.4900 |
+| CLIP-IQA | URetinex-Net | DICM | 0.5325 |
+| CLIP-IQA | URetinex-Net | LIME | 0.5053 |
+| CLIP-IQA | URetinex-Net | MEF | 0.5365 |
+| CLIP-IQA | URetinex-Net | NPE | 0.4874 |
+| CLIP-IQA | URetinex-Net | NPE-ex1 | 0.5388 |
+| CLIP-IQA | URetinex-Net | NPE-ex2 | 0.5741 |
+| CLIP-IQA | URetinex-Net | NPE-ex3 | 0.4586 |
+| CLIP-IQA | URetinex-Net | VV | 0.3960 |
+| CLIP-IQA | URetinex-Net | Overall | 0.5075 |
+| CLIP-IQA | Retinexformer | DICM | 0.4338 |
+| CLIP-IQA | Retinexformer | LIME | 0.4367 |
+| CLIP-IQA | Retinexformer | MEF | 0.4771 |
+| CLIP-IQA | Retinexformer | NPE | 0.2850 |
+| CLIP-IQA | Retinexformer | NPE-ex1 | 0.4148 |
+| CLIP-IQA | Retinexformer | NPE-ex2 | 0.4169 |
+| CLIP-IQA | Retinexformer | NPE-ex3 | 0.3960 |
+| CLIP-IQA | Retinexformer | VV | 0.2928 |
+| CLIP-IQA | Retinexformer | Overall | 0.4055 |

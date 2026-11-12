@@ -1,0 +1,14 @@
+# Table 1 — Table_1_quality_complexity.csv
+
+| group | method | params | weights_KB | LOL_PSNR_dB | LOL_SSIM | LOL_MAE | BIMEF_NIQE | BIMEF_CLIP_IQA | GPU_4K_latency_ms |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A_ultra_lightweight | ResLuma (ours) | 28 | 0.1 | 19.332 | 0.6329 | 0.111 | 3.666 | 0.4539 | 8.45 |
+| A_ultra_lightweight | LiteIE | 58 | 0.2 | 19.203 | 0.6649 | 0.116 | 3.961 | 0.4321 | 14.38 |
+| A_ultra_lightweight | SCI | 258 | 1.0 | 14.853 | 0.5571 | 0.190 | 3.886 | 0.4158 | 9.55 |
+| B_lightweight | RUAS | 3438 | 13.4 | 16.448 | 0.5460 | 0.153 | 6.774 | 0.2792 | 123.77 |
+| B_lightweight | MobileIE | 4075 | 15.9 | 23.634 | 0.8291 | 0.062 | 4.044 | 0.3528 | 25.24 |
+| B_lightweight | Zero-DCE++ | 10561 | 41.3 | 15.355 | 0.6054 | 0.177 | 3.626 | 0.4742 | 11.64 |
+| B_lightweight | Zero-DCE | 79416 | 310.2 | 14.861 | 0.5927 | 0.185 | 3.585 | 0.4780 | 84.80 |
+| C_larger_models | FourLLIE | 119446 | 466.6 | 20.023 | 0.8320 | 0.096 | 3.594 | 0.4900 | 276.27 |
+| C_larger_models | URetinex-Net | 340105 | 1328.5 | 19.861 | 0.8346 | 0.099 | 3.905 | 0.5075 | 646.34 |
+| C_larger_models | Retinexformer | 1605701 | 6272.3 | 25.155 | 0.8602 | 0.047 | 3.361 | 0.4055 | 1453.59 |

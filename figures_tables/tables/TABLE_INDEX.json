@@ -1,0 +1,14 @@
+{
+  "tables": {
+    "1": "Table_1_quality_complexity.csv",
+    "2": "Table_2_BIMEF_8subsets.csv",
+    "3": "Table_3_latency_FPS.csv",
+    "4": "Table_4_core_ablation.csv",
+    "5": "Table_5_curve_and_eta.csv",
+    "6": "Table_6_curve_cpu_timing.csv",
+    "7": "Table_7_exposure_ablation.csv",
+    "8": "Table_8_local_compensation.csv",
+    "9": "Table_9_kernel_size.csv"
+  },
+  "source": "ResLuma.pdf, version 2026-11-04, 26 pages. Source CSVs for Tables 1-5,7-9 retained from previous plot pack; Table 6 transcribed from the latest manuscript PDF."
+}
